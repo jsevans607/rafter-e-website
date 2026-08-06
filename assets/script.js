@@ -51,3 +51,30 @@ document.addEventListener("click", () => {
     if (button) button.setAttribute("aria-expanded", "false");
   });
 });
+
+
+// Highlight the current page in the primary navigation.
+(() => {
+  const path = window.location.pathname.split("/").pop() || "index.html";
+  document.querySelectorAll(".main-nav a").forEach(link => {
+    const href = (link.getAttribute("href") || "").split("#")[0];
+    if (href === path || (path === "" && href === "index.html")) {
+      link.classList.add("current");
+      link.setAttribute("aria-current", "page");
+      const dropdown = link.closest(".nav-dropdown");
+      if (dropdown) dropdown.classList.add("current");
+    }
+  });
+})();
+
+// Close the mobile menu after choosing a destination.
+document.querySelectorAll(".main-nav a").forEach(link => {
+  link.addEventListener("click", () => {
+    const nav = document.getElementById("main-nav");
+    const toggle = document.querySelector(".menu-toggle");
+    if (nav && nav.classList.contains("open")) {
+      nav.classList.remove("open");
+      if (toggle) toggle.setAttribute("aria-expanded", "false");
+    }
+  });
+});
