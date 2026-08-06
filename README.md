@@ -1,17 +1,18 @@
-# Rafter E LLC Website
+# Rafter E Website v1.2
 
-## Upload to GitHub
-1. Open the `rafter-e-website` repository.
-2. Select **Add file** → **Upload files**.
-3. Unzip this package.
-4. Drag all files and folders from inside the unzipped folder into GitHub.
-5. Choose **Commit directly to the main branch** and click **Commit changes**.
+Upload all files and folders from this package to the root of the GitHub repository.
 
-GitHub supports dragging files and folders into the browser upload screen.
+## Netlify Forms
+Form detection must be enabled. After this release deploys, Netlify should detect:
+- estimate-request
+- estimate-request-home
 
-## Connect to Netlify
-Choose **Add new project** → **Import an existing project** → **GitHub**, then select the repository.
-No build command is needed. Publish from the repository root.
+Both forms submit to `/thank-you/`, which is included as a real folder route.
 
-## Contact form
-The estimate form uses Netlify Forms. Submit one test form after deployment and configure email notifications.
+## Main v1.2 changes
+- Featured Projects wording
+- Redesigned Site Preparation presentation
+- Taller header with existing logo size
+- Contact form and thank-you route rebuilt
+- Navigation and mobile polish
+- Internal file/link validation completed

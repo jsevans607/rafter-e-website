@@ -1,0 +1,11 @@
+{
+  "html_pages_checked": 8,
+  "total_files": 40,
+  "errors": [],
+  "site_prep_block_replaced": true,
+  "forms": [
+    "estimate-request-home",
+    "estimate-request"
+  ],
+  "confirmation_route": "/thank-you/"
+}

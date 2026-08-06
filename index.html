@@ -131,9 +131,9 @@
     <section class="section projects" id="projects">
       <div class="container">
         <div class="section-heading light reveal">
-          <p class="eyebrow">Featured Transformations</p>
-          <h2>Real properties. Visible results.</h2>
-          <p>Drag each slider to compare the condition before Rafter E arrived with the finished result.</p>
+          <p class="eyebrow">Featured Projects</p>
+          <h2>Real work. Clear results.</h2>
+          <p>Explore completed land clearing, shoreline restoration and site preparation work from Northeast Oklahoma.</p>
         </div>
 
         <article class="project-feature reveal">
@@ -180,18 +180,28 @@
           </div>
         </article>
 
-        <article class="site-prep reveal">
-          <div class="site-prep-copy">
-            <p class="project-kicker">Site Preparation</p>
-            <h3>A clean, build-ready starting point.</h3>
-            <p>Successful construction begins with a stable, properly shaped site. Rafter E prepares pads and surrounding grades with drainage, access and the finished use of the property in mind.</p>
-            <a href="#estimate" class="text-link">Discuss your building site →</a>
-          </div>
-          <div class="site-prep-images">
-            <img src="assets/images/site-preparation-wide.webp" alt="Completed building pad and graded site">
-            <img src="assets/images/site-preparation-finish.webp" alt="Finished site preparation work">
-          </div>
-        </article>
+        <article class="site-prep site-prep-v12 reveal" id="featured-site-preparation">
+  <div class="site-prep-copy">
+    <p class="project-kicker">Site Preparation</p>
+    <h3>A clean, build-ready starting point.</h3>
+    <p>Successful construction begins with a stable, properly shaped site. Rafter E prepares pads and surrounding grades with drainage, access and the finished use of the property in mind.</p>
+    <a href="contact.html" class="text-link">Request a Free Estimate →</a>
+  </div>
+  <div class="site-prep-feature">
+    <img class="site-prep-main" src="assets/images/site-preparation-wide.webp" alt="Large finished site preparation and building pad">
+    <div class="site-prep-comparison" aria-label="Site preparation before and after views">
+      <figure>
+        <span>Before</span>
+        <img src="assets/images/site-preparation-finish.webp" alt="Site preparation before final completion">
+      </figure>
+      <div class="comparison-arrow" aria-hidden="true">→</div>
+      <figure>
+        <span>After</span>
+        <img src="assets/images/site-preparation-wide.webp" alt="Finished build-ready site">
+      </figure>
+    </div>
+  </div>
+</article>
       </div>
     </section>
 
@@ -287,8 +297,8 @@
           </div>
         </div>
 
-        <form class="estimate-form reveal" name="estimate-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
-          <input type="hidden" name="form-name" value="estimate-request">
+        <form class="estimate-form reveal" name="estimate-request-home" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you/">
+          <input type="hidden" name="form-name" value="estimate-request-home">
           <p class="hidden"><label>Do not fill this in: <input name="bot-field"></label></p>
           <div class="form-row">
             <label>Full name<input type="text" name="name" autocomplete="name" required></label>

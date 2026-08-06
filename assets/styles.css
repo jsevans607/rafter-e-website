@@ -111,11 +111,12 @@
 @media(max-width:620px){.service-gallery{grid-template-columns:1fr}.service-gallery img{height:280px!important}}
 
 
-/* Version 1.1 polish */
+/* Rafter E Website v1.2 */
 :focus-visible{outline:3px solid #f39a58;outline-offset:4px}
 .site-header{box-shadow:0 8px 24px rgba(0,0,0,.18)}
 .brand{display:flex;align-items:center;align-self:stretch}
 .brand img{flex:0 0 auto;object-fit:contain}
+
 .main-nav a,.dropdown-toggle{position:relative}
 .main-nav>a:not(.nav-cta)::after,.dropdown-toggle::after{
   content:"";position:absolute;left:0;right:0;bottom:5px;height:2px;
@@ -126,33 +127,69 @@
 .main-nav>a.current:not(.nav-cta)::after,
 .nav-dropdown.current>.dropdown-toggle::after{transform:scaleX(1)}
 .main-nav a.current,.nav-dropdown.current>.dropdown-toggle{color:#f39b5d}
-.nav-cta{transition:background .2s ease,transform .2s ease}
-.nav-cta:hover{transform:translateY(-2px)}
-.button{
-  min-height:56px;
+
+.button,.nav-cta{
   transition:background .2s ease,color .2s ease,transform .2s ease,box-shadow .2s ease
 }
-.button:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(0,0,0,.18)}
+.button{min-height:56px}
+.button:hover,.nav-cta:hover{
+  transform:translateY(-2px);box-shadow:0 12px 28px rgba(0,0,0,.18)
+}
+
+.site-prep-v12{
+  grid-template-columns:.72fr 1.28fr;
+  align-items:start;
+}
+.site-prep-feature{display:grid;gap:16px}
+.site-prep-main{
+  width:100%;height:470px;object-fit:cover;
+  box-shadow:0 18px 42px rgba(0,0,0,.22)
+}
+.site-prep-comparison{
+  display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:center
+}
+.site-prep-comparison figure{margin:0;position:relative}
+.site-prep-comparison figure span{
+  position:absolute;left:12px;top:12px;z-index:2;
+  background:rgba(0,0,0,.78);color:#fff;
+  padding:6px 10px;font-size:11px;font-weight:900;
+  letter-spacing:1px;text-transform:uppercase
+}
+.site-prep-comparison img{
+  width:100%;height:235px;object-fit:cover
+}
+.comparison-arrow{
+  color:var(--orange);font-size:34px;font-weight:900
+}
+
 .service-card,.review,.value-card,.case-study{border-radius:2px}
 .service-detail img,.project-photo-pair img,.story-photo img,
 .equipment-grid img,.site-prep-images img{background:#ece8e1}
 .service-detail img,.project-photo-pair img{box-shadow:0 16px 38px rgba(0,0,0,.12)}
-.page-hero-content,.hero-content{text-wrap:balance}
+
 .estimate-form input:focus,.estimate-form select:focus,.estimate-form textarea:focus{
   border-color:var(--orange);box-shadow:0 0 0 3px rgba(223,104,23,.15);outline:none
 }
 .footer-grid a:hover{color:#fff}
+
 @media(max-width:960px){
-  .main-nav{max-height:calc(100vh - 118px);overflow-y:auto;gap:8px;box-shadow:0 24px 35px rgba(0,0,0,.35)}
+  .main-nav{
+    max-height:calc(100vh - 118px);overflow-y:auto;
+    gap:8px;box-shadow:0 24px 35px rgba(0,0,0,.35)
+  }
   .main-nav>a,.dropdown-toggle{padding:14px 4px}
   .dropdown-menu a{white-space:normal}
+  .site-prep-v12{grid-template-columns:1fr}
 }
 @media(max-width:620px){
   .hero h1{font-size:clamp(46px,14vw,58px);line-height:.94}
   .hero-content>p,.page-hero p:last-child{font-size:17px;line-height:1.55}
   .page-hero h1{font-size:clamp(44px,13vw,54px);line-height:.96}
-  .section-heading h2,.difference h2,.veteran-section h2,.service-area h2,.estimate h2{letter-spacing:-1.5px}
   .service-card{min-height:auto;padding:28px}
   .service-card h3{margin-top:28px}
+  .site-prep-main{height:315px}
+  .site-prep-comparison{grid-template-columns:1fr}
+  .site-prep-comparison img{height:255px}
+  .comparison-arrow{transform:rotate(90deg);justify-self:center}
   .mobile-call{min-height:58px;display:flex;align-items:center;justify-content:center}
 }

@@ -53,7 +53,7 @@ document.addEventListener("click", () => {
 });
 
 
-// Highlight the current page in the primary navigation.
+// Current-page navigation state.
 (() => {
   const path = window.location.pathname.split("/").pop() || "index.html";
   document.querySelectorAll(".main-nav a").forEach(link => {
