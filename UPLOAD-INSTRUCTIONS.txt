@@ -1,1 +1,1 @@
-Upload the CONTENTS of this folder to the ROOT of the GitHub repository. Commit directly to main. Netlify will redeploy automatically.
+Upload all files and folders inside this package to the ROOT of your GitHub repository, replacing matching files. Commit to main; Netlify will redeploy automatically.
