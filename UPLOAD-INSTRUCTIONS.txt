@@ -1,4 +1,1 @@
-MOUNTAIN BIKE TRAIL LAYOUT FIX
-
-Upload mountain-bike-trail.html to the ROOT of your GitHub repository and replace the existing file.
-Commit to main. Netlify will redeploy automatically.
+Upload all files and folders inside this package to the ROOT of your GitHub repository, replacing matching files. Commit to main; Netlify will redeploy automatically.
