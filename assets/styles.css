@@ -196,3 +196,18 @@
 
 /* Paradise Cove project page */
 .pc-hero{min-height:680px;background-size:cover;background-position:center;display:flex;align-items:end;color:#fff}.pc-hero-copy{padding-block:120px 80px;max-width:900px}.pc-hero h1{font-size:clamp(58px,8.5vw,108px);line-height:.9;letter-spacing:-4px;margin:18px 0 28px}.pc-hero h1 span{color:var(--orange)}.pc-hero-copy>p:last-child{font-size:20px;color:#ddd;max-width:760px}.pc-story,.pc-result-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:start}.pc-story h2,.pc-result-grid h2{font-size:clamp(40px,5vw,64px);line-height:1.02;letter-spacing:-2px;margin:10px 0}.pc-story>div:last-child p{font-size:18px;color:var(--muted)}.pc-gallery-wrap{background:#111;color:#fff}.pc-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.pc-gallery img{width:100%;height:350px;object-fit:cover;background:#ddd}.pc-result{background:var(--orange);color:#fff}.pc-result blockquote{margin:0;background:#111;padding:38px}.pc-result blockquote p{font-size:clamp(22px,3vw,32px);line-height:1.35;margin-top:0}.pc-result blockquote footer{color:#f3a36a;font-weight:900}@media(max-width:960px){.pc-story,.pc-result-grid{grid-template-columns:1fr}.pc-gallery{grid-template-columns:repeat(2,1fr)}}@media(max-width:620px){.pc-hero{min-height:590px}.pc-hero-copy{padding-block:90px 55px}.pc-hero h1{font-size:52px;letter-spacing:-2px}.pc-gallery{grid-template-columns:1fr}.pc-gallery img{height:290px}}
+
+
+/* Site Preparation portfolio: three-photo showcase */
+.pc-gallery-three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.pc-gallery-three img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+@media (max-width: 900px) {
+  .pc-gallery-three { grid-template-columns: 1fr; }
+  .pc-gallery-three img { height: auto; max-height: 520px; }
+}
