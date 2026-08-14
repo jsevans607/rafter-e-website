@@ -1,1 +1,6 @@
-Upload all files and folders inside this package to the ROOT of your GitHub repository, replacing matching files. Commit to main; Netlify will redeploy automatically.
+REMOVE SHORELINE RESTORATION UPDATE
+
+Upload all files and folders inside this package to the ROOT of your GitHub repository, replacing matching files.
+Commit to main. Netlify will redeploy automatically.
+
+This update removes Shoreline Restoration from the website navigation and removes its linked service/project sections where present.
