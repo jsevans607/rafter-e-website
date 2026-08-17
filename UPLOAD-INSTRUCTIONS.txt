@@ -1,10 +1,4 @@
-PROJECTS MENU CLEANUP
+HOMEPAGE FEATURED PROJECTS UPDATE
 
-Upload ALL HTML files in this package to the ROOT of your GitHub repository and replace the matching files.
+Upload index.html and the assets folder to the ROOT of your GitHub repository, replacing the matching files.
 Commit to main and let Netlify redeploy.
-
-Removed from Projects dropdown:
-- Land Clearing
-- Storm & Disaster Cleanup
-
-Land Clearing and Storm Cleanup remain in the Services dropdown.
