@@ -1,4 +1,6 @@
-HOMEPAGE FEATURED PROJECTS UPDATE
+HOMEPAGE ROLLBACK
 
-Upload index.html and the assets folder to the ROOT of your GitHub repository, replacing the matching files.
-Commit to main and let Netlify redeploy.
+Upload index.html and the assets folder to the ROOT of your GitHub repository.
+Replace the matching files, commit to main, and let Netlify redeploy.
+
+This restores the website to the state immediately before the Homepage Featured Projects update.

@@ -245,34 +245,3 @@
   .milling-showcase .milling-pair{grid-template-columns:1fr}
   .milling-showcase .milling-pair img{height:auto;max-height:520px}
 }
-
-/* Homepage Featured Projects */
-.featured-project-grid{
-  display:grid;
-  grid-template-columns:repeat(3,minmax(0,1fr));
-  gap:24px;
-  margin-top:34px;
-}
-.featured-project-card{
-  background:#fff;
-  overflow:hidden;
-  box-shadow:0 12px 34px rgba(0,0,0,.09);
-}
-.featured-project-card>a{display:block}
-.featured-project-card img{
-  width:100%;
-  height:260px;
-  object-fit:cover;
-  display:block;
-}
-.featured-project-copy{padding:24px}
-.featured-project-copy h3{margin:8px 0 10px}
-.featured-project-copy p{margin-top:0}
-.featured-projects-cta{margin-top:34px;text-align:center}
-@media(max-width:920px){
-  .featured-project-grid{grid-template-columns:1fr}
-  .featured-project-card img{height:320px}
-}
-@media(max-width:620px){
-  .featured-project-card img{height:240px}
-}
