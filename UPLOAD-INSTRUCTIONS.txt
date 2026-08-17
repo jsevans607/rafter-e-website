@@ -1,8 +1,10 @@
-CUSTOM MILLING SERVICE MENU FINAL FIX
+PROJECTS MENU CLEANUP
 
-Upload ALL HTML files in this package to the ROOT of GitHub and replace the matching files.
+Upload ALL HTML files in this package to the ROOT of your GitHub repository and replace the matching files.
 Commit to main and let Netlify redeploy.
 
-Verified behavior:
-- Services > Custom Milling -> services.html#custom-sawmilling
-- Projects > Custom Milling -> custom-milling.html
+Removed from Projects dropdown:
+- Land Clearing
+- Storm & Disaster Cleanup
+
+Land Clearing and Storm Cleanup remain in the Services dropdown.
