@@ -1,4 +1,6 @@
-CUSTOM MILLING MENU + PHOTO FIX
+CUSTOM MILLING PROJECTS MENU + PHOTO LAYOUT FIX
 
 Upload all files and folders inside this package to the ROOT of your GitHub repository, replacing matching files.
 Commit to main. Netlify will redeploy automatically.
+
+This update adds Custom Milling to the Projects dropdown and uses three two-photo sections with six distinct photos.
