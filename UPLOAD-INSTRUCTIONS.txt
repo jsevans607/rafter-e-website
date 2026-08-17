@@ -1,1 +1,4 @@
-Upload all files and folders inside this package to the ROOT of your GitHub repository, replacing matching files. Commit to main; Netlify will redeploy automatically.
+CUSTOM MILLING MENU + PHOTO FIX
+
+Upload all files and folders inside this package to the ROOT of your GitHub repository, replacing matching files.
+Commit to main. Netlify will redeploy automatically.
