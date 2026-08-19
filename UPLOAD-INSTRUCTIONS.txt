@@ -1,6 +1,2 @@
-HOMEPAGE ROLLBACK
-
-Upload index.html and the assets folder to the ROOT of your GitHub repository.
-Replace the matching files, commit to main, and let Netlify redeploy.
-
-This restores the website to the state immediately before the Homepage Featured Projects update.
+Upload projects.html to the ROOT of your GitHub repository, replace the existing file, commit to main, and let Netlify redeploy.
+This update changes ONLY the Projects landing page.
