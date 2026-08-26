@@ -1,2 +1,2 @@
-Upload projects.html to the ROOT of your GitHub repository, replace the existing file, commit to main, and let Netlify redeploy.
-This update changes ONLY the Projects landing page.
+Upload ONLY index.html to the ROOT of GitHub, replace the existing index.html, commit to main, and let Netlify redeploy.
+No other website files are changed.
