@@ -1,2 +1,6 @@
-Upload ONLY index.html to the ROOT of GitHub, replace the existing index.html, commit to main, and let Netlify redeploy.
-No other website files are changed.
+SITE PREPARATION PHOTO-ONLY UPDATE
+
+Upload site-preparation.html and the assets folder to the ROOT of your GitHub repository.
+Replace matching files, commit to main, and let Netlify redeploy.
+
+This update changes ONLY the Site Preparation photos. Layout, wording, styling, and navigation are unchanged.
