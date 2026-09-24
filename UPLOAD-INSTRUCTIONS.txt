@@ -1,8 +1,13 @@
-SITE PREPARATION IMAGE REPLACEMENT
+CONTACT FORM FIX
 
-Upload ONLY the assets folder from this package to the ROOT of your GitHub repository.
-Choose Replace when GitHub asks about matching files.
-Commit to main and let Netlify redeploy.
+Upload BOTH files to the ROOT of your GitHub repository:
+- contact.html
+- thank-you.html
 
-This update does NOT change site-preparation.html, layout, text, menus, or styling.
-It only replaces the four image files the page already uses.
+Replace contact.html, add thank-you.html, commit to main, and let the site redeploy.
+
+The existing Contact page design is unchanged.
+The form remains configured for Netlify Forms and now has a valid thank-you destination.
+
+IMPORTANT:
+In Netlify, Form Detection must be enabled for the site. After deployment, submit one test request from the live website and confirm it appears under Forms in Netlify.
